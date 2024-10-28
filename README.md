@@ -9,7 +9,7 @@ Ubuntu 22 comes with gstreamer, so run the file of .run directly. <br>
 
 ## if want to compile c file
 sudo apt-get update  <br>
-sudo apt-get update \build-essential \ <br>
+sudo apt-get install build-essential \ <br>
 libgstreamer1.0-dev \ <br>
 libgstreamer-plugins-base1.0-dev <br>
 <br>
