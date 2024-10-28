@@ -17,4 +17,4 @@ gcc play_videotest.c -o play_videotest.out \`pkg-config --cflags --libs gstreame
 <br>
 gcc usbcam_640x480_mjpg.c -o usbcam_640x480_mjpg.out \`pkg-config --cflags --libs gstreamer-1.0\` <br>
 <br>
-### If the document help you, how about build street cat a fish can ?<br>
+### If the document help you, how about buy street cats a fish can ?<br>
