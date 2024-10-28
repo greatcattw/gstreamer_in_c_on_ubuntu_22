@@ -13,8 +13,8 @@ sudo apt-get update \build-essential \ <br>
 libgstreamer1.0-dev \ <br>
 libgstreamer-plugins-base1.0-dev <br>
 <br>
-gcc play_videotest.c -o play_videotest.out `pkg-config --cflags --libs gstreamer-1.0` <br>
+gcc play_videotest.c -o play_videotest.out ``pkg-config --cflags --libs gstreamer-1.0`` <br>
 <br>
-gcc usbcam_640x480_mjpg.c -o usbcam_640x480_mjpg.out `pkg-config --cflags --libs gstreamer-1.0` <br>
+gcc usbcam_640x480_mjpg.c -o usbcam_640x480_mjpg.out ``pkg-config --cflags --libs gstreamer-1.0`` <br>
 <br>
 ### If the document help you, how about build street cat a fish can ?<br>
