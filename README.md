@@ -8,10 +8,10 @@ Ubuntu 22 comes with gststreamer, so run the file of .run directly. <br>
 ![pic](pic/2.png)<br>
 
 ## if want to compile c file
-sudo apt-get iupdate \<br>
-build-essential \<br>
-libgstreamer1.0-dev \<br>
-libgstreamer-plugins-base1.0-dev
+sudo apt-get iupdate \ <br>
+build-essential \ <br>
+libgstreamer1.0-dev \ <br>
+libgstreamer-plugins-base1.0-dev <br>
 <br>
 gcc play_videotest.c -o play_videotest.out `pkg-config --cflags --libs gstreamer-1.0`<br>
 <br>
